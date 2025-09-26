@@ -11,6 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "vite deploy"
   },
+   "homepage":"https://github.com/rimaalali/Login-page",
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
