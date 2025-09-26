@@ -26,7 +26,7 @@ h3{
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 1000;
-  font-size:30px ;
+  font-size:26px ;
   font-style: normal;
   font-variation-settings:"wdth" 100;
 }
@@ -65,24 +65,50 @@ p{
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
-.email{width:85% ;
-    height:10% ;
+.emailhold{width:85% ;
+    height:9% ;
  position:relative;
     top:27% ;
     left:86px ; 
+    display: flex;
+    flex-direction: column;
+     color:rgb(101, 100, 100);
    border:1px solid #C1BBBB ;
    border-left:3px solid #0C31F1 ;
-   color:#0C31F1;
+   padding-left:2.5% ;
+   padding-top:1% ;
+  }
+ .email { padding:5px 5px ;
+  color:#0C31F1;
    font-weight: 400;
+   font-size:17px ;
+   border:none ;
+   margin-top:1% ;
 }
-.password{
-    width:85% ;
-    height:10% ;
+.passwordhold{
+  width:85% ;
+    height:9% ;
  position:relative;
     top:27% ;
     left:86px ; 
+    display: flex;
+    flex-direction: column;
+     color:rgb(101, 100, 100);
    border:1px solid #C1BBBB ;
-     color:#0C31F1;
+   border-left:3px solid #0C31F1 ;
+   padding-left:2.5% ;
+   padding-top:1% ;
+}
+.password{padding:5px 5px ;
+  color:#0C31F1;
+   font-weight: 400;
+   font-size:17px ;
+   border:none ;
+   margin-top:3% ;
+    width:85% ;
+    height:10% ;
+
+
 }
 .sec{    
     width:85% ;
@@ -123,10 +149,7 @@ p{
     top:36% ;
     left:86px ; 
       font-family: "Roboto", sans-serif;
-      /* font-optical-sizing: auto; */
-      /* font-weight: 700; */
   font-size: 19px;
-  /* font-style: normal; */
    color: #0000006a;
 }
 .forth h4{

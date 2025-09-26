@@ -9,9 +9,14 @@ export default function Login() {
 <h3>Digital</h3>
 <h1 className='one'>Artificial Intelligence Driving Results For The Travel Industry</h1>
 <p className='welcome'>Welcome  back! Please login to your account.</p>
-<input className='email' type='email' placeholder='Email Adress'/>
-<input className='password' type='password' placeholder='password' webkit-text-security='disc' />
-
+<div className='emailhold'>
+  <label>Email Adress</label>
+<input className='email' type='email'/>
+</div>
+<div className='passwordhold'>
+  <label>PassWord</label>
+<input className='password' type='password'   />
+</div>
 <div className='sec'> 
  <div className='remember'> <input type='checkbox' /><p>Remember Me</p></div>
   <a>Forgot password?</a>
@@ -22,9 +27,9 @@ export default function Login() {
 </div>
 <div className='forth'>
   <h4>Or login with</h4>
-  <a className='link' href=''>Facebook</a>
-  <a  className='link' href=''>Linkedin</a>
-  <a  className='link' href=''>Google</a>
+  <a className='link' href='https://www.facebook.com'>Facebook</a>
+  <a  className='link' href='https://www.linkedin.com'>Linkedin</a>
+  <a  className='link' href='https://www.google.com'>Google</a>
 </div>
       </div>
       <div className='leftside'>
