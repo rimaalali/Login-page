@@ -9,9 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "vite deploy"
+    "deploy": "gh-pages -d dist"
   },
-   "homepage":"https://github.com/rimaalali/Login-page/",
+   "homepage":"https://github.com/rimaalali/Login-page",
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
